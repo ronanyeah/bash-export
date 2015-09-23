@@ -2,7 +2,7 @@
 how to move away from foreman for your environment variables and be a sick dev
 
 Step 1 -
-create a file in your project root folder called env.sh
+create a file in your project root folder called env.sh (or anything.sh)
 
 Step 2 -
 put env.sh in your .gitignore
