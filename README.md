@@ -14,9 +14,9 @@ Step 4 -
 format your file like this:
 ```
 #!/bin/bash
-ENVIRONMENT_VARIABLE_NAME=whatever
-ENV2=etc
-YOU_GET_THE_PICTURE=lol
+export ENVIRONMENT_VARIABLE_NAME=whatever
+export ENV2=etc
+export YOU_GET_THE_PICTURE=lol
 echo env vars loaded
 ```
 i like to add the echo at the end but it's not necessary
