@@ -24,13 +24,13 @@ i like to add the echo at the end but it's not necessary
 Step 5 -
 from the terminal, run
 ```
-$ . ./env.sh
+$ . env.sh
 ```
 
 Step 6 -
 if this doesn't work, run
 ```
-$ chmod 755 ./env.sh
+$ chmod 755 env.sh
 ```
 and try again
 (got that trick from [here](http://ryanstutorials.net/bash-scripting-tutorial/bash-script.php))
