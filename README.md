@@ -2,13 +2,13 @@
 How to move away from [foreman](https://www.npmjs.com/package/foreman) etc for your environment variables and be a sick dev.
 
 **Step 1**  
-Create a file in your project root folder called env.sh (or anything.sh).
+Create a file in your project root folder called *env.sh* (or *anything.sh*).
 
 **Step 2**  
-Put env.sh in your .gitignore.
+Put *env.sh* in your *.gitignore*.
 
 **Step 3**  
-PUT ENV.SH IN YOUR .GITIGNORE.
+PUT *ENV.SH* IN YOUR *.GITIGNORE*.
 
 **Step 4**  
 Format your file like this:
