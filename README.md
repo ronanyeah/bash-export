@@ -1,43 +1,30 @@
-# bash-export
-how to move away from foreman for your environment variables and be a sick dev
+# Exporting environment variables using a bash script.
+How to move away from foreman for your environment variables and be a sick dev
 
-Step 1 -
-create a file in your project root folder called env.sh (or anything.sh)
+Step 1 -  
+Create a file in your project root folder called env.sh (or anything.sh).
 
-Step 2 -
-put env.sh in your .gitignore
+Step 2 -  
+Put env.sh in your .gitignore.
 
-Step 3 -
-PUT ENV.SH IN YOUR .GITIGNORE
+Step 3 -  
+PUT ENV.SH IN YOUR .GITIGNORE.
 
-Step 4 -
-format your file like this:
+Step 4 -  
+Format your file like this:
 ```
 #!/bin/bash
+export TEST_VAR='env vars loaded'
 export ENVIRONMENT_VARIABLE_NAME=whatever
 export ENV2=etc
 export YOU_GET_THE_PICTURE=lol
-echo env vars loaded
+printenv TEST_VAR
 ```
-i like to add the echo at the end but it's not necessary
+The `printenv TEST_VAR` isn't necessary but I like to add it to give me some feedback that they have loaded correctly.
 
-Step 5 -
-from the terminal, run
-```
-$ . env.sh
-```
+Step 5 -  
+From the terminal, run: `$ . env.sh`.
 
-Step 6 -
-if this doesn't work, run
-```
-$ chmod 755 env.sh
-```
-and try again
+Step 6 -  
+If it doesn't work, or the printenv doesn't show, run `$ chmod 755 env.sh` and try again.  
 (got that trick from [here](http://ryanstutorials.net/bash-scripting-tutorial/bash-script.php))
-
-Step 7 -
-test they loaded by running
-```
-$ printenv ENVIRONMENT_VARIABLE_NAME
-```
-or printing/using them in your app
