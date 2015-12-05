@@ -29,7 +29,7 @@ From the terminal, run: `$ . env.sh`.
 If it doesn't work, or the printenv doesn't show, run `$ chmod 755 env.sh` and try again.  
 (Got that trick from [here](http://ryanstutorials.net/bash-scripting-tutorial/bash-script.php).)
 
-**Bonus**
+**Bonus**  
 On Windows you can use a PowerShell file called `env.ps1` formatted like this to export your variables:
 ```
 Set-Item -path env:TEST_VAR -value 'env vars loaded'
